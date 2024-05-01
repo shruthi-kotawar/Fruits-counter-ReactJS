@@ -1,0 +1,89 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.fruits-container {
+  background-color: white;
+  border-radius: 16px;
+  text-align: center;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.count {
+  color: #ffd569;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counter-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+.button {
+  background-color: #007bff;
+  padding: 8px 16px 8px 16px;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    width: 90%;
+    padding: 30 0;
+  }
+  .heading {
+    font-size: 48px;
+    margin: 40px 0;
+  }
+  .counter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .button-container {
+    margin-top: 48px;
+  }
+  .img {
+    height: 275px;
+    width: 296px;
+  }
+  .counter-control {
+    margin-right: 48px;
+    margin-top: 96px;
+    margin-left: 48px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
